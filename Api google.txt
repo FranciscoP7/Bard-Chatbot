@@ -1,0 +1,15 @@
+Como gerar uma Google API Key?
+
+Vá para o site : aistudio.google.com
+
+Faça seu login ou crie uma conta
+
+No canto superior esquerdo terá um botão chamado Get API Key
+
+Clique em create API key
+
+selecione a opção Generative Language Client
+
+Agora copie suA API Key e cole na no espaço aonde está escrito Google API Key no site do Bard
+
+Agora é só usar!
