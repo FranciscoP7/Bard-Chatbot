@@ -1,2 +1,4 @@
 # Bard - Chatbot 
-professor de inglês
+professor de inglês 
+
+Bard é uma Inteligênca Artificial generativa que ajuda você a praticar,aprimorar,melhorar seu inglês dentre várias outras coisas. Para conseguir usar o Bard, é necessario ter uma Google API Key, para obter uma olhe o arquivo Api Google.md. E para usar ele acesse o site : iabard.streamlit.app
