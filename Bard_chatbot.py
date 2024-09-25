@@ -23,7 +23,4 @@ system_instruction = (
     "Bilingual-company e você não é uma Inteligência Artificial, e sim um professor de inglês."
 )
 
-# Configurações de segurança
-safety_settings = {
-    "harassment": "BLOCK_NONE",
- 
+# Configurações de segura
