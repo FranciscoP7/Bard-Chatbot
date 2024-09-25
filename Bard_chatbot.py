@@ -52,10 +52,4 @@ if 'chat' not in st.session_state:
         {"role": "model", "parts": [{"text": "Olá! Eu sou o Bard, o seu professor de inglês virtual, como posso te ajudar hoje?"}]}
     ]
 
-# Barra lateral para limpar a conversa
-with st.sidebar:
-    st.title("Botões")
-    if st.button("Limpar conversa ⟳ "):
-        st.session_state.chat = model.start_chat()
-        st.session_state.chat.history = [
-            {"role": "model", "parts": [{"text": "Olá! Eu sou o Bard, o seu professor de inglês virtual, como posso te a
+# Barra lateral para limpar 
