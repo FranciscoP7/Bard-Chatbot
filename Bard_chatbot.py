@@ -26,30 +26,4 @@ system_instruction = (
 # Configurações de segurança
 safety_settings = {
     "harassment": "BLOCK_NONE",
-    "HATE": "BLOCK_NONE",
-    "SEXUAL": "BLOCK_NONE",
-    "DANGEROUS": "BLOCK_NONE"
-}
-
-# Configurações da geração
-generation_config = {
-    "candidate_count": 1,
-    "temperature": 1
-}
-
-# Define o modelo
-model = genai.GenerativeModel(
-    model_name="gemini-1.5-pro-latest",  # Substitua pelo modelo correto se necessário
-    generation_config=generation_config,
-    safety_settings=safety_settings,
-    system_instruction=system_instruction
-)
-
-# Inicializa o estado da sessão
-if 'chat' not in st.session_state:
-    st.session_state.chat = model.start_chat()
-    st.session_state.chat.history = [
-        {"role": "model", "parts": [{"text": "Olá! Eu sou o Bard, o seu professor de inglês virtual, como posso te ajudar hoje?"}]}
-    ]
-
-# Barra lateral para limpar 
+ 
