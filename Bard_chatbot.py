@@ -6,7 +6,7 @@ st.set_page_config(page_title="💬 Bard - Professor de Inglês", page_icon=":bo
 
 # Barra lateral
 with st.sidebar:
-    Google_key = st.text_input("Google API Key", key="chatbot_api_key", type="password")
+    Google_key = st.text_input("API Key", key="chatbot_api_key", type="password")
     
     
 
